@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
-## Issue related to [ Frontend, Backend, Database, ML Model, Scraper ]  
+## Issue related to 
+- [ ] Frontend  
+- [ ] Backend  
+- [ ] Database  
+- [ ] ML Model  
+- [ ] Twitter API  
 
 ## Describe the issue:
