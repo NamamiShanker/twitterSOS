@@ -1,11 +1,26 @@
 import { Card } from 'antd';
 import React from 'react';
-const TweetCard = ({ id, info }) => {
-	// const { id, info } = props;
+import './card.s.css';
+
+const TweetCard = ({ tweet }) => {
+	const { id, category, content, handle, link } = tweet;
 	return (
-		<Card title={`${id}`} bordered={false} style={{ width: 300 }}>
-			<p>{info}</p>
-		</Card>
+		<div className='tweet-cards'>
+			<a href={link} target='_blank' rel='noreferrer noopener'>
+				<Card title={`${id + 1}`} bordered={false}>
+					<p>{category}</p>
+					<p>{content}</p>
+					<p>
+						<a
+							href={`https://twitter.com/${handle}`}
+							target='_blank'
+							rel='noreferrer noopener'>
+							{handle}
+						</a>
+					</p>
+				</Card>
+			</a>
+		</div>
 	);
 };
 
