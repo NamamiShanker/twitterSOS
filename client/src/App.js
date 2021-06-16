@@ -23,7 +23,7 @@ const App = () => {
 				<Header style={{ padding: 0 }} />
 				<Content style={{ margin: '0 16px' }}>
 					<div className='site-layout-background' style={{ padding: 24, minHeight: 360 }}>
-						{data ? data.map((tweet) => <TweetCard tweet={tweet} />) : ''}
+						{data ? data.map((tweet) => <TweetCard tweet={tweet} />) : ' '}
 					</div>
 				</Content>
 				<Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
