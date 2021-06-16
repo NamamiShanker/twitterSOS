@@ -12,7 +12,7 @@ const App = () => {
 	useEffect(() => {
 		axios.get('http://localhost:5000/tweets').then((tweets) => {
 			setdata(tweets.data);
-			console.log(tweets);
+			console.log(tweets.data);
 		});
 	}, []);
 
@@ -22,15 +22,11 @@ const App = () => {
 			<Layout className='site-layout'>
 				<Header style={{ padding: 0 }} />
 				<Content style={{ margin: '0 16px' }}>
-					<div
-						className='site-layout-background'
-						style={{ padding: 24, minHeight: 360 }}>
+					<div className='site-layout-background' style={{ padding: 24, minHeight: 360 }}>
 						{data ? data.map((tweet) => <TweetCard tweet={tweet} />) : ''}
 					</div>
 				</Content>
-				<Footer style={{ textAlign: 'center' }}>
-					Ant Design ©2018 Created by Ant UED
-				</Footer>
+				<Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
 			</Layout>
 		</Layout>
 	);

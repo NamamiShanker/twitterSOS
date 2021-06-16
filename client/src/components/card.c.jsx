@@ -3,7 +3,7 @@ import React from 'react';
 import './card.s.css';
 
 const TweetCard = ({ tweet }) => {
-	const { id, category, content, handle, link } = tweet;
+	const { id, category, content, handle, link, datetime } = tweet;
 	return (
 		<div className='tweet-cards'>
 			<a href={link} target='_blank' rel='noreferrer noopener'>
@@ -11,13 +11,11 @@ const TweetCard = ({ tweet }) => {
 					<p>{category}</p>
 					<p>{content}</p>
 					<p>
-						<a
-							href={`https://twitter.com/${handle}`}
-							target='_blank'
-							rel='noreferrer noopener'>
+						<a href={`https://twitter.com/${handle}`} target='_blank' rel='noreferrer noopener'>
 							{handle}
 						</a>
 					</p>
+					<p>{datetime}</p>
 				</Card>
 			</a>
 		</div>
