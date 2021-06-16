@@ -20,7 +20,7 @@ const App = () => {
 		<Layout style={{ minHeight: '100vh' }}>
 			<SiderDemo />
 			<Layout className='site-layout'>
-				<Header style={{ padding: 0, color: 'floralwhite' }}>Twitter SOS</Header>
+				<Header class="heading" style={{ padding: 0, color: 'floralwhite', backgroundColor: '#001529' }}>Twitter SOS</Header>
 				<Content style={{ margin: '0 16px' }}>
 					<div className='site-layout-background' style={{ padding: 24, minHeight: 360 }}>
 						{data ? data.map((tweet) => <TweetCard tweet={tweet} />) : ''}
