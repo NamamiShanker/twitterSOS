@@ -1,0 +1,6 @@
+.tweet-cards {
+	margin: 1rem;
+}
+.tweet-cards:hover {
+	transform: scale(1.015);
+}
