@@ -37,19 +37,19 @@ class SiderDemo extends React.Component {
                 <Menu theme='dark' defaultSelectedKeys={['1']} mode='inline'>
 
                     <SubMenu style={{ minHeight: 'auto', padding: 14 }} key='sub1' icon={<UserOutlined />} title='Sort by'>
-                        <Menu.Item key='3'>
+                        <Menu.Item key='1'>
                             <Checkbox onChange={onChange}></Checkbox> Oxygen
                         </Menu.Item>
-                        <Menu.Item key='4'>
+                        <Menu.Item key='2'>
                             <Checkbox onChange={onChange}></Checkbox> Medicine
                         </Menu.Item>
-                        <Menu.Item key='5'>
+                        <Menu.Item key='3'>
                             <Checkbox onChange={onChange}></Checkbox> Money
                         </Menu.Item>
-                        <Menu.Item key='6'>
+                        <Menu.Item key='4'>
                             <Checkbox onChange={onChange}></Checkbox> Hospital beds
                         </Menu.Item>
-                        <Menu.Item key='7'>
+                        <Menu.Item key='5'>
                             <Checkbox onChange={onChange}></Checkbox> Plasma donors
                         </Menu.Item>
                     </SubMenu>
