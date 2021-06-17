@@ -3,3 +3,9 @@
     height :5000px;
     position:"fixed";
 }
+.submenu{
+    padding: '20px 0px 10px 0px';
+}
+.elements{
+    padding: 0px;
+}
