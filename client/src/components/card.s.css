@@ -17,3 +17,6 @@
 #ind-card {
 	min-height: 320px;
 }
+.ant-menu-item {
+	padding-left: 10px !important;
+}

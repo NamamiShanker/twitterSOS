@@ -7,7 +7,7 @@ const TweetCard = ({ tweet }) => {
 	return (
 		<div className='tweet-cards'>
 			<a style={{ color: 'black' }} href={`${link}`} target='_blank'>
-				<Card title={category} bordered={true} id="ind-card">
+				<Card title={category} bordered={true} id='ind-card'>
 					<p className='ID-right'>ID : {`${id + 1}`}</p>
 					<p> {content}</p>
 					<p className='tweet-font '>
