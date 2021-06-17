@@ -1,6 +1,19 @@
 .tweet-cards {
 	margin: 1rem;
+	/* width: 1000px; */
+	/* height: 300px; */
 }
 .tweet-cards:hover {
-	transform: scale(1.015);
+	transform: scale(1.01);
+}
+.tweet-font {
+	font-family: 'Roboto';
+	color: black;
+}
+.ID-right {
+	display: flex;
+	justify-content: flex-end;
+}
+#ind-card {
+	min-height: 320px;
 }

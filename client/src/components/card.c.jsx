@@ -6,11 +6,11 @@ const TweetCard = ({ tweet }) => {
 	const { id, category, content, handle, link, datetime } = tweet;
 	return (
 		<div className='tweet-cards'>
-			<a href={link} target='_blank' rel='noreferrer noopener'>
-				<Card title={`${id + 1}`} bordered={false}>
-					<p>{category}</p>
-					<p>{content}</p>
-					<p>
+			<a style={{ color: 'black' }} href={`${link}`} target='_blank'>
+				<Card title={category} bordered={true} id="ind-card">
+					<p className='ID-right'>ID : {`${id + 1}`}</p>
+					<p> {content}</p>
+					<p className='tweet-font '>
 						<a href={`https://twitter.com/${handle}`} target='_blank' rel='noreferrer noopener'>
 							{handle}
 						</a>
@@ -18,6 +18,7 @@ const TweetCard = ({ tweet }) => {
 					<p>{datetime}</p>
 				</Card>
 			</a>
+			<br />
 		</div>
 	);
 };
