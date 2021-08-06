@@ -10,4 +10,6 @@ Kartik Anand
 Jaishika Korivi <br>
 Naga Tanuja Bathena <br>
 Arpit Maurya <br>
+Gunjan Mayekar <br>
+Deep Kumar Gupta <br>
 Akshay Kumar Jaiswal
