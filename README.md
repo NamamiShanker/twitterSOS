@@ -7,7 +7,7 @@ A website to identify and present live SOS tweets.
 
 Namami Shanker  
 Kartik Anand  
-Jaishika Korivi
-Naga Tanuja Bathena
+Jaishika Korivi <br>
+Naga Tanuja Bathena <br>
 Arpit Maurya <br>
 Akshay Kumar Jaiswal
